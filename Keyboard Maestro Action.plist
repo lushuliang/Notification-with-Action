@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <string>Notification with Action</string>
+        <key>Script</key>
+        <string>Action.sh</string>
+        <key>Icon</key>
+        <string>AppIcon.icns</string>
+        <key>Title</key>
+        <string>Notification with Action</string>
+        <key>Results</key>
+        <string>None|Window</string>
+        <key>Timeout</key>
+        <integer>120</integer>
+        <key>Author</key>
+        <string>lushuliang</string>
+        <key>Help</key>
+        <string>nothing</string>
+        <key>Parameters</key>
+        <array>
+         <dict>
+                <key>Label</key>
+                <string>Type</string>
+                <key>Type</key>
+                <string>PopupMenu</string>
+                <key>Menu</key>
+                <string>Banner|Alert</string>
+                <key>Default</key>
+                <string>Banner</string>
+            </dict>
+            <dict>
+                <key>Label</key>
+                <string>Title</string>
+                <key>Type</key>
+                <string>TokenString</string>
+            </dict>
+            <dict>
+                <key>Label</key>
+                <string>Subtitle</string>
+                <key>Type</key>
+                <string>TokenString</string>
+            </dict>
+            <dict>
+                <key>Label</key>
+                <string>Message</string>
+                <key>Type</key>
+                <string>TokenText</string>
+            </dict>
+            <dict>
+                <key>Label</key>
+                <string>MessageAction</string>
+                <key>Type</key>
+                <string>TokenString</string>
+            </dict>
+            <dict>
+                <key>Label</key>
+                <string>MessageButton</string>
+                <key>Type</key>
+                <string>TokenString</string>
+            </dict>
+            
+            <dict>
+                <key>Label</key>
+                <string>MessageButtonAction</string>
+                <key>Type</key>
+                <string>TokenString</string>
+            </dict>
+           
+            <dict>
+                <key>Label</key>
+                <string>Sound</string>
+                <key>Type</key>
+                <string>PopupMenu</string>
+                <key>Menu</key>
+                <string>None|Basso|Blow|Bottle|Default|Frog|Funk|Glass|Hero|Morse|Ping|Pop|Purr|Sosumi|Submarine|Tink</string>
+                <key>Default</key>
+                <string>None</string>
+            </dict>
+        </array>
+    </dict>
+</plist>

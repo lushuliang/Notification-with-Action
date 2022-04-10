@@ -10,8 +10,6 @@
         <string>AppIcon.icns</string>
         <key>Title</key>
         <string>Notification with Action</string>
-        <key>Results</key>
-        <string>None|Window</string>
         <key>Timeout</key>
         <integer>120</integer>
         <key>Author</key>
@@ -67,17 +65,7 @@
                 <key>Type</key>
                 <string>TokenString</string>
             </dict>
-           
-            <dict>
-                <key>Label</key>
-                <string>Sound</string>
-                <key>Type</key>
-                <string>PopupMenu</string>
-                <key>Menu</key>
-                <string>None|Basso|Blow|Bottle|Default|Frog|Funk|Glass|Hero|Morse|Ping|Pop|Purr|Sosumi|Submarine|Tink</string>
-                <key>Default</key>
-                <string>None</string>
-            </dict>
+        
         </array>
     </dict>
 </plist>
